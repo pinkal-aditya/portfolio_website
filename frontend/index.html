@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aditya Singh</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <img id="c1" src="images/grad1.png" />
+    <img id="c2" src="images/grad2.png" />
+
+    <!-- submit message -->
+    <div class="subpopup"></div>
+    <!-- resume button -->
+    <div class="res">
+      <a
+        class="btn resume"
+        href="https://drive.google.com/file/d/1zKNYPnc0mxaKflmW7HNqr1jBwm8LVU9z/view?usp=sharing"
+        target="_blank"
+        ><p><i class="fa fa-download"></i> Resume</p></a
+      >
+      <!-- Cursor -->
+      <div class="cursor"></div>
+      <!-- Nav-bar -->
+      <div class="header-bar">
+        <div class="margin">
+          <div class="header">
+            <div class="aditya">
+              <img src="images/profilePic.jpg" />
+              <h3>ADITYA <span class="surname">SINGH</span></h3>
+            </div>
+            <div class="nav-items">
+              <ul class="nav-links">
+                <a href="#"><li>Home</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#projects"><li>Projects</li></a>
+                <a href="#contact"><li>Contact</li></a>
+              </ul>
+              <div class="hamburger">
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="myFunction()"
+                >
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- landing screen -->
+      <div class="margin container">
+        <div id="home" class="home animated">
+          <div class="home-content">
+            <h1>HEY! I'M <span class="name">ADITYA SINGH</span></h1>
+            <p>
+              Full-time QA Automation tester and passionate web developer, I
+              leverage QA automation to ensure top-notch quality and reliability
+              in dynamic websites and applications. By integrating automated
+              testing into my development process, I rigorously validate and
+              refine applications, driving project success and enhancing user
+              experiences with precision and efficiency.
+            </p>
+            <a class="btn" href="#projects"><p>PROJECTS</p></a>
+          </div>
+        </div>
+        <!-- About Section -->
+        <div class="about-section">
+          <h2 id="about" class="animated">ABOUT ME</h2>
+          <div class="line animated"></div>
+          <div class="about-flex">
+            <div class="info animated">
+              <h4>Know about me!</h4>
+              <p>
+                Greetings! I'm Aditya Singh,a QA Automation tester and a
+                passionate website developer with a knack for both front-end and
+                back-end technologies. My expertise spans across JavaScript,
+                React.js, Node.js, and CSS, allowing me to transform creative
+                ideas into seamless digital experiences.<br /><br />I take pride
+                in writing clean, efficient code and enjoy solving complex
+                challenges by creating user-friendly solutions that are not only
+                visually appealing but also functionally robust.
+              </p>
+              <a class="btn" href="#contact"><p>CONTACT</p></a>
+            </div>
+            <div class="skills animated">
+              <h4>My Skills!</h4>
+              <ul>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>dotNET</li>
+                <li>Selenium</li>
+                <li>MySQL</li>
+                <li>C#</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Projects -->
+        <div class="project-section">
+          <h2 id="projects" class="animated">PROJECTS</h2>
+          <div class="line animated"></div>
+          <div class="project animated">
+            <img src="images/Project_1.png" />
+            <div class="info info2">
+              <h4>PhotoVault</h4>
+              <p>
+                <!-- 75-80 Words -->
+                The primary objective of PhotoVault is to create an
+                aesthetically pleasing and functional photo management tool that
+                demonstrates advanced front-end development skills. The project
+                emphasizes user experience through thoughtful design and
+                interaction techniques.
+                <br /><br />
+                PhotoVault is a dynamic and interactive web application designed
+                for photo management and visualization. Built using HTML, CSS,
+                and JavaScript, this project showcases a sophisticated approach
+                to presenting images with enhanced user experience and smooth
+                interactions.
+              </p>
+              <a
+                class="btn"
+                target="_blank"
+                href="https://amankmrlko.github.io/PhotoVault/"
+                ><p>VISIT SITE</p></a
+              >
+            </div>
+          </div>
+        </div>
+        <!-- Contact section -->
+        <div class="contact-section">
+          <h2 id="contact" class="animated">CONTACT</h2>
+          <div class="line animated"></div>
+          <p style="opacity: 0.75" class="animated">
+            Feel free to get in touch by completing the form below. I'll get
+            back to you as soon as possible.
+          </p>
+          <div class="contact-form animated">
+            <form action="https://formspree.io/f/xpwabzqd" method="POST">
+              <!-- https://formspree.io/f/xpwabzqd -->
+              <label for="Name"><p>NAME</p></label>
+              <input
+                id="nameform"
+                name="name"
+                type="text"
+                placeholder="Enter your Full Name"
+                required
+              />
+              <label for="email"><p>EMAIL</p></label>
+              <input
+                id="emailform"
+                name="email"
+                type="email"
+                placeholder="example@email.com"
+                required
+              />
+              <label for="textarea"><p>MESSAGE</p></label>
+              <textarea
+                id="textarea"
+                name="message"
+                placeholder="Enter your message"
+              ></textarea>
+              <button type="submit" id="submitDetails" class="sub-btn">
+                <p>SUBMIT</p>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <h4>Let's Connect!</h4>
+      <div class="social">
+        <a target="_blank" href="mailto:aditya.jdp20@gmail.com"
+          ><img src="images/email.png"
+        /></a>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/aditya-singh-34832a20a/"
+          ><img src="images/linkedIn.png"
+        /></a>
+        <a target="_blank" href="https://github.com/pinkal-aditya"
+          ><img src="images/github.png"
+        /></a>
+      </div>
+      <div class="name-footer">
+        <p>Made with ❤️ by</p>
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/aditya-singh-34832a20a/"
+          ><p>Aditya</p></a
+        >
+      </div>
+    </div>
+
+    <script src="js/frontend_script.js"></script>
+  </body>
+</html>
